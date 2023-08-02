@@ -2,7 +2,7 @@
 Examples of solutions to exercises from the book "The C Programming Language, Second Edition" by B. Kernighan and D. Ritchie.
 
 ## Chapter 1 - A Tutorial Introduction
-Ex 1-1. Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what errors messages you get. [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/HelloWorld.c)
+- [x] __Ex 1-1.__ Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what errors messages you get. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/HelloWorld.c)
 ## Chapter 2 - Types, Operators and Expressions
 
 ## Chapter 3 - Control Flow
