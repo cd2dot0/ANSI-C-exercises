@@ -83,7 +83,7 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [ ] __Ex 5-17.__ Add a field-searching capability, so sorting may be done on fields within lines, each field sorted according to an independent set of options. (The index for this book was sorted with `-df` for the index category and `-n` for the page numbers.) -> TO DO
 - [ ] __Ex 5-18.__ Make `dcl` recover from input errors. -> TO DO
 - [ ] __Ex 5-19.__ Modify `undcl` so that it does not add redundant parentheses to declarations. -> TO DO
-- [ ] __Ex 5-20.__ Expand `dcl` to handle declarations with function argument types, qualifiers like `const`. and so on. -> TO DO
+- [ ] __Ex 5-20.__ Expand `dcl` to handle declarations with function argument types, qualifiers like `const`, and so on. -> TO DO
 
 ## Chapter 6 - Structures
 
