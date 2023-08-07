@@ -94,5 +94,14 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [ ] __Ex 6-6.__ Implement a simple version of the `#define` processor (i.e., no arguments) suitable for use  with C programs, based on the routines of this section. You may also find `getch` and `ungetch` helpful. -> TO DO
 
 ## Chapter 7 - Input and Output
+- [ ] __Ex 7-1.__ Write a program that converts upper case to lower or lower case to upper, depending on the name it is invoked with, as found in `argv[0]`. -> TO DO
+- [ ] __Ex 7-2.__ Write a program that will print arbitrary input in a sensible way. As a minimum, it should print non-graphic characters in octal or hexadecimal according to local custom, and break long text lines. -> TO DO
+- [ ] __Ex 7-3.__ Revise `minprintf` to handle more of the other facilities of `printf`. -> TO DO
+- [ ] __Ex 7-4.__ Write a private version of `scanf` analogous to `minprintf` from the previous section. -> TO DO
+- [ ] __Ex 7-5.__ Rewrite the postfix calculator of Chapter 4 to use `scanf` and/or `sscanf` to do the input and number conversion. -> TO DO
+- [ ] __Ex 7-6.__ Write a program to compare two files, printing the first line where they differ. -> TO DO
+- [ ] __Ex 7-7.__ Modify the pattern finding program of Chapter 5 to take its input from a set of named files or, if no files are named as arguments, from the standard input. Should the file name be printed when a matching line is found? -> TO DO
+- [ ] __Ex 7-8.__ Write a program to print a set of files, starting each new one on a new page, with a title and a running page count for each file. -> TO DO
+- [ ] __Ex 7-9.__ Functions like `isupper` can be implemented to save space or to save time. Explore both possibilities. -> TO DO
 
 ## Chapter 8 - The UNIX System Interface
