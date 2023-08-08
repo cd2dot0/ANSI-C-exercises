@@ -2,13 +2,13 @@
 Examples of solutions to exercises from the book "The C Programming Language, Second Edition" by B. Kernighan and D. Ritchie.
 
 ## Chapter 1 - A Tutorial Introduction
-- [x] __Ex 1-1.__ Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what errors messages you get. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/HelloWorld.c)
-- [ ] __Ex 1-2.__ Experiment to find out what happens when `printf`'s argument string contains `\c`, where `c` is some character not listed above. -> TO DO
-- [ ] __Ex 1-3.__ Modify the temperature conversion program to print a heading above the table. -> TO DO
-- [ ] __Ex 1-4.__ Write a program to print the corresponding Celsius to Fahrenheit table. -> TO DO
-- [ ] __Ex 1-5.__ Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0. -> TO DO
-- [ ] __Ex 1-6.__ Verify that the expression `getchar() != EOF` is 0 or 1. -> TO DO
-- [ ] __Ex 1-7.__ Write a program to print the value of `EOF`. -> TO DO
+- [x] __Ex 1-1.__ Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what errors messages you get. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-01-1.c)
+- [ ] __Ex 1-2.__ Experiment to find out what happens when `printf`'s argument string contains `\c`, where `c` is some character not listed above. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-02-1.c)
+- [ ] __Ex 1-3.__ Modify the temperature conversion program to print a heading above the table. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-03-1.c)
+- [ ] __Ex 1-4.__ Write a program to print the corresponding Celsius to Fahrenheit table. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-04-1.c)
+- [ ] __Ex 1-5.__ Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-05-1.c)
+- [ ] __Ex 1-6.__ Verify that the expression `getchar() != EOF` is 0 or 1. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-06-1.c)
+- [ ] __Ex 1-7.__ Write a program to print the value of `EOF`. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-07-1.c)
 - [ ] __Ex 1-8.__ Write a program to count blanks, tabs, and newlines. -> TO DO
 - [ ] __Ex 1-9.__ Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank. -> TO DO
 - [ ] __Ex 1-10.__ Write a program to copy its input to its output, replacing each tab by `\t`, each backspace by `\b`, and each backslash by `\\`. This makes tabs and backspaces visible in an unambiguous way. -> TO DO
