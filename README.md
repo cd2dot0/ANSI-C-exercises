@@ -9,13 +9,13 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [x] __Ex 1-5.__ Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-05-1.c)
 - [x] __Ex 1-6.__ Verify that the expression `getchar() != EOF` is 0 or 1. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-06-1.c)
 - [x] __Ex 1-7.__ Write a program to print the value of `EOF`. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-07-1.c)
-- [ ] __Ex 1-8.__ Write a program to count blanks, tabs, and newlines. -> TO DO
-- [ ] __Ex 1-9.__ Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank. -> TO DO
-- [ ] __Ex 1-10.__ Write a program to copy its input to its output, replacing each tab by `\t`, each backspace by `\b`, and each backslash by `\\`. This makes tabs and backspaces visible in an unambiguous way. -> TO DO
-- [ ] __Ex 1-11.__ How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any? -> TO DO
-- [ ] __Ex 1-12.__ Write a program that prints its input one word per line. -> TO DO
-- [ ] __Ex 1-13.__ Write a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging. -> TO DO
-- [ ] __Ex 1-14.__ Write a program to print a histogram of the frequencies of different characters in its input. -> TO DO
+- [x] __Ex 1-8.__ Write a program to count blanks, tabs, and newlines. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-08-1.c)
+- [x] __Ex 1-9.__ Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-09-1.c)
+- [x] __Ex 1-10.__ Write a program to copy its input to its output, replacing each tab by `\t`, each backspace by `\b`, and each backslash by `\\`. This makes tabs and backspaces visible in an unambiguous way. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-10-1.c)
+- [x] __Ex 1-11.__ How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any? -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-11-1.c)
+- [x] __Ex 1-12.__ Write a program that prints its input one word per line. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-12-1.c)
+- [x] __Ex 1-13.__ Write a program to print a histogram of the lengths of words in its input. It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging. -> Solutions: [no. 1 (horizontal)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-13-1.c), [no. 2 (vertical)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-13-2.c)
+- [x] __Ex 1-14.__ Write a program to print a histogram of the frequencies of different characters in its input. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-14-1.c)
 - [ ] __Ex 1-15.__ Rewrite the temperature conversion program of Section 1.2 to use a function for conversion. -> TO DO
 - [ ] __Ex 1-16.__ Revise the main routine of the longest-line program so it will correctly print the length of arbitrary long input lines, and as much as possible of the text. -> TO DO
 - [ ] __Ex 1-17.__ Write a program to print all input lines that are longer than 80 characters. -> TO DO
