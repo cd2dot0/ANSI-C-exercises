@@ -51,7 +51,7 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [ ] __Ex 4-1.__ Write the function `strrindex(s,t)` which returns the position of the _rightmost_ occurence of `t` in `s`, or -1 if there is none. -> TO DO
 - [ ] __Ex 4-2.__ Extend `atof` to handle scientific notation of the form `123.45e-6` where a floating-point number may be followed by `e` or `E` and an optionally signed exponent. -> TO DO
 - [ ] __Ex 4-3.__ Given the basic framework, it's straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers. -> TO DO
-- [ ] __Ex 4-4.__ Add the commands to print the top elements of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack. -> TO DO
+- [ ] __Ex 4-4.__ Add commands to print the top element of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack. -> TO DO
 - [ ] __Ex 4-5.__ Add access to library functions like `sin`, `exp`, and `pow`. See `<math.h>` in Appendix B, Section 4. -> TO DO
 - [ ] __Ex 4-6.__ Add commands for handling variables. (It's easy to provide twenty-six variables with single-letter names.) Add a variable for the most recently printed value. -> TO DO
 - [ ] __Ex 4-7.__ Write a routine `ungets(s)` that will push back an entire string onto the input. Should `ungets` know about `buf` and `bufp`, or should it just use `ungetch`? -> TO DO
