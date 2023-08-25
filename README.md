@@ -87,8 +87,8 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 
 ## Chapter 6 - Structures
 - [ ] __Ex 6-1.__ Our version of `getword` does not properly handle underscores, string constants, comments, or preprocessor control lines. Write a better version. -> TO DO
-- [ ] __Ex 6-2.__ Write a program that reads a C program and prints in alphabetical order each group of variable names that are identical in the first 6 characters, but different somewhere thereafter. Don't count words within strings and comments. Make 6 a parameter that can be set from the command line. -> TO DO
-- [ ] __Ex 6-3.__ Write a cross-referencer that prints a list of all words in a document, and for each word, a list of the line numbers on which it occurs. Remove noise words like "the," "and," and so on. -> TO DO
+- [ ] __Ex 6-2.__ Write a program that reads a C program and prints in alphabetical order each group of variable names that are identical in the first 6 characters but different somewhere thereafter. Don't count words within strings and comments. Make 6 a parameter that can be set from the command line. -> TO DO
+- [ ] __Ex 6-3.__ Write a cross-referencer that prints a list of all words in a document, and, for each word, a list of the line numbers on which it occurs. Remove noise words like "the," "and," and so on. -> TO DO
 - [ ] __Ex 6-4.__ Write a program that prints the distinct words in its input sorted into decreasing order of frequency of occurrence. Precede each word by its count. -> TO DO
 - [ ] __Ex 6-5.__ Write a function `undef` that will remove a name and definition from the table maintained by `lookup`  and `install`. -> TO DO
 - [ ] __Ex 6-6.__ Implement a simple version of the `#define` processor (i.e., no arguments) suitable for use  with C programs, based on the routines of this section. You may also find `getch` and `ungetch` helpful. -> TO DO
