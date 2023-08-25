@@ -48,7 +48,7 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [x] __Ex 3-6.__ Write a version of `itoa` that accepts three arguments instead of two. The third argument is a minimum field width; the converted number must be padded with blanks on the left if necessary to make it wide enough. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH3-06-1.c)
 
 ## Chapter 4 - Functions and Program Structure
-- [ ] __Ex 4-1.__ Write the function `strrindex(s,t)` which returns the position of the _rightmost_ occurence of `t` in `s`, or -1 if there is none. -> TO DO
+- [ ] __Ex 4-1.__ Write the function `strrindex(s,t)`, which returns the position of the _rightmost_ occurence of `t` in `s`, or -1 if there is none. -> TO DO
 - [ ] __Ex 4-2.__ Extend `atof` to handle scientific notation of the form `123.45e-6` where a floating-point number may be followed by `e` or `E` and an optionally signed exponent. -> TO DO
 - [ ] __Ex 4-3.__ Given the basic framework, it's straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers. -> TO DO
 - [ ] __Ex 4-4.__ Add commands to print the top element of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack. -> TO DO
