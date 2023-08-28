@@ -48,20 +48,20 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [x] __Ex 3-6.__ Write a version of `itoa` that accepts three arguments instead of two. The third argument is a minimum field width; the converted number must be padded with blanks on the left if necessary to make it wide enough. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH3-06-1.c)
 
 ## Chapter 4 - Functions and Program Structure
-- [ ] __Ex 4-1.__ Write the function `strrindex(s,t)`, which returns the position of the _rightmost_ occurence of `t` in `s`, or -1 if there is none. -> TO DO
-- [ ] __Ex 4-2.__ Extend `atof` to handle scientific notation of the form `123.45e-6` where a floating-point number may be followed by `e` or `E` and an optionally signed exponent. -> TO DO
-- [ ] __Ex 4-3.__ Given the basic framework, it's straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers. -> TO DO
-- [ ] __Ex 4-4.__ Add commands to print the top element of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack. -> TO DO
-- [ ] __Ex 4-5.__ Add access to library functions like `sin`, `exp`, and `pow`. See `<math.h>` in Appendix B, Section 4. -> TO DO
-- [ ] __Ex 4-6.__ Add commands for handling variables. (It's easy to provide twenty-six variables with single-letter names.) Add a variable for the most recently printed value. -> TO DO
-- [ ] __Ex 4-7.__ Write a routine `ungets(s)` that will push back an entire string onto the input. Should `ungets` know about `buf` and `bufp`, or should it just use `ungetch`? -> TO DO
-- [ ] __Ex 4-8.__ Suppose that there will never be more than one character of pushback. Modify `getch` and `ungetch` accordingly. -> TO DO
-- [ ] __Ex 4-9.__ Our `getch` and `ungetch` do not handle a pushed-back `EOF` correctly. Decide what their properties ought to be if an `EOF` is pushed back, then implement your design. -> TO DO
-- [ ] __Ex 4-10.__ An alternate organization uses `getline` to read an entire input line; this makes `getch` and `ungetch` unnecessary. Revise the calculator to use this approach. -> TO DO
-- [ ] __Ex 4-11.__ Modify `getop` so that if doesn't need to use `ungetch`. Hint: use an internal static variable. -> TO DO
-- [ ] __Ex 4-12.__ Adapt the ideas of `printd` to write a recursive version of `itoa`; that is, convert an integer into a string by calling a recursive routine. -> TO DO
-- [ ] __Ex 4-13.__ Write a recursive version of the function `reverse(s)`, which reverses the string `s` in place. -> TO DO
-- [ ] __Ex 4-14.__ Define a macro `swap(t,x,y)` that interchanges two arguments of type `t`. (Block structure will help.) -> TO DO
+- [x] __Ex 4-1.__ Write the function `strrindex(s,t)`, which returns the position of the _rightmost_ occurence of `t` in `s`, or -1 if there is none. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-01-1.c)
+- [x] __Ex 4-2.__ Extend `atof` to handle scientific notation of the form `123.45e-6` where a floating-point number may be followed by `e` or `E` and an optionally signed exponent. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-02-1.c)
+- [x] __Ex 4-3.__ Given the basic framework, it's straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-03-1.c)
+- [x] __Ex 4-4.__ Add commands to print the top element of the stack without popping, to duplicate it, and to swap the top two elements. Add a command to clear the stack. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-04-1.c)
+- [x] __Ex 4-5.__ Add access to library functions like `sin`, `exp`, and `pow`. See `<math.h>` in Appendix B, Section 4. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-05-1.c)
+- [x] __Ex 4-6.__ Add commands for handling variables. (It's easy to provide twenty-six variables with single-letter names.) Add a variable for the most recently printed value. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-06-1.c)
+- [x] __Ex 4-7.__ Write a routine `ungets(s)` that will push back an entire string onto the input. Should `ungets` know about `buf` and `bufp`, or should it just use `ungetch`? -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-07-1.c)
+- [x] __Ex 4-8.__ Suppose that there will never be more than one character of pushback. Modify `getch` and `ungetch` accordingly. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-08-1.c)
+- [x] __Ex 4-9.__ Our `getch` and `ungetch` do not handle a pushed-back `EOF` correctly. Decide what their properties ought to be if an `EOF` is pushed back, then implement your design. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-09-1.c)
+- [x] __Ex 4-10.__ An alternate organization uses `getline` to read an entire input line; this makes `getch` and `ungetch` unnecessary. Revise the calculator to use this approach. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-10-1.c)
+- [x] __Ex 4-11.__ Modify `getop` so that if doesn't need to use `ungetch`. Hint: use an internal static variable. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-11-1.c)
+- [x] __Ex 4-12.__ Adapt the ideas of `printd` to write a recursive version of `itoa`; that is, convert an integer into a string by calling a recursive routine. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-12-1.c)
+- [x] __Ex 4-13.__ Write a recursive version of the function `reverse(s)`, which reverses the string `s` in place. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-13-1.c)
+- [x] __Ex 4-14.__ Define a macro `swap(t,x,y)` that interchanges two arguments of type `t`. (Block structure will help.) -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH4-14-1.c)
 
 ## Chapter 5 - Pointers and Arrays
 - [ ] __Ex 5-1.__ As written, `getint` treats a `+` or `-` not followed by a digit as a valid representation of zero. Fix it to push such a character back on the input. -> TO DO
