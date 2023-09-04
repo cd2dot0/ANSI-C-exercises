@@ -69,7 +69,7 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [ ] __Ex 5-3.__ Write a pointer version of the function `strcat` that we showed in Chapter 2: `strcat(s,t)` copies the string `t` to the end of `s`. -> TO DO
 - [ ] __Ex 5-4.__ Write the function `strend(s,t)`, which returns 1 if the string `t` occurs at the end of the string `s`, and zero otherwise. -> TO DO
 - [ ] __Ex 5-5.__ Write versions of the library functions `strncpy`, `strncat`, and `strncmp`, which operate on at most the first `n` characters of their argument strings. For example, `strncpy(s,t,n)` copies at most `n` characters of `t` to `s`. Full descriptions are in Appendix B. -> TO DO
-- [ ] __Ex 5-6.__ Rewrite appropriate programs from earlier chapters and exercises with pointers intead of array indexing. Good possiblities include `getline` (Chapters 1 and 4), `atoi`, `itoa`, and their variants (Chapters 2, 3, and 4), `reverse` (Chapter 3), and `strindex` and `getop` (Chapter 4). -> TO DO
+- [ ] __Ex 5-6.__ Rewrite appropriate programs from earlier chapters and exercises with pointers instead of array indexing. Good possibilities include `getline` (Chapters 1 and 4), `atoi`, `itoa`, and their variants (Chapters 2, 3, and 4), `reverse` (Chapter 3), and `strindex` and `getop` (Chapter 4). -> TO DO
 - [ ] __Ex 5-7.__ Rewrite `readlines` to store lines in an array supplied by `main`, rather than calling `alloc` to maintain storage. How much faster is the program? -> TO DO
 - [ ] __Ex 5-8.__ There is no error checking in `day_of_year` or `month_day`. Remedy this defect. -> TO DO
 - [ ] __Ex 5-9.__ Rewrite the routines `day_of_year` and `month_day` with pointers instead of indexing. -> TO DO
