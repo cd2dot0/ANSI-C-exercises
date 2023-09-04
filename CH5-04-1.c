@@ -3,7 +3,7 @@ int strend(char *s, char *t)
 {
     char *t0, *s0;
 
-    // remember initial adresses
+    // remember initial addresses
     t0 = t;
     s0 = s;
 
