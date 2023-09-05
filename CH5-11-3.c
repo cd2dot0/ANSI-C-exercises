@@ -4,7 +4,7 @@
 
 void qsort_(int v[], int left, int right);
 
-/* create list: create list of jumps to the next tab position according to passed arguments */
+/* create_list: create list of jumps to the next tab position according to passed arguments */
 void create_list(int argc, char *argv[], int list_jump[], int lim)
 {
     int pos[argc - 1]; // array of passed tab positions
