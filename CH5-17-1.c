@@ -78,7 +78,7 @@ main(int argc, char *argv[])
                     dir_order = 1;
                     break;
                 default:
-                    printf("find: illegal option %c\n", c);
+                    printf("illegal option %c\n", c);
                     argc = 1;
                     break;
                 }
