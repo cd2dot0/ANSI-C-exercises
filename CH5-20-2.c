@@ -127,12 +127,11 @@ void check_type(void)
         if(sign != -1 || length != -1)
             e = 1;
     }
-    else //double
+    else // double
     {
         if(sign != -1 || length == 0)
             e = 1;
     }
     if(e == 1)
         printf("error: wrong data type and/or wrong qualifiers were specified\n");
-
 }
