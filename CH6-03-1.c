@@ -32,7 +32,7 @@ void treeprint_l(struct tnode *);
 int getword(char *, int);
 int binsearch(char *, struct irrelevant *, int);
 
-/* print a list of all words (skip irrelevant ones) with a list of the line numbers on which they occurs */
+/* print a list of all words (skip irrelevant ones) with a list of the line numbers on which they occur */
 main()
 {
     struct tnode *root;
