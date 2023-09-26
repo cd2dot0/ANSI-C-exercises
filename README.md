@@ -86,12 +86,12 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [x] __Ex 5-20.__ Expand `dcl` to handle declarations with function argument types, qualifiers like `const`, and so on. -> Solution: [main()](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH5-20-1.c), [check_type()](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH5-20-2.c), [check_args()](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH5-20-3.c)
 
 ## Chapter 6 - Structures
-- [ ] __Ex 6-1.__ Our version of `getword` does not properly handle underscores, string constants, comments, or preprocessor control lines. Write a better version. -> TO DO
-- [ ] __Ex 6-2.__ Write a program that reads a C program and prints in alphabetical order each group of variable names that are identical in the first 6 characters but different somewhere thereafter. Don't count words within strings and comments. Make 6 a parameter that can be set from the command line. -> TO DO
-- [ ] __Ex 6-3.__ Write a cross-referencer that prints a list of all words in a document, and, for each word, a list of the line numbers on which it occurs. Remove noise words like "the," "and," and so on. -> TO DO
-- [ ] __Ex 6-4.__ Write a program that prints the distinct words in its input sorted into decreasing order of frequency of occurrence. Precede each word by its count. -> TO DO
-- [ ] __Ex 6-5.__ Write a function `undef` that will remove a name and definition from the table maintained by `lookup`  and `install`. -> TO DO
-- [ ] __Ex 6-6.__ Implement a simple version of the `#define` processor (i.e., no arguments) suitable for use  with C programs, based on the routines of this section. You may also find `getch` and `ungetch` helpful. -> TO DO
+- [x] __Ex 6-1.__ Our version of `getword` does not properly handle underscores, string constants, comments, or preprocessor control lines. Write a better version. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-01-1.c)
+- [x] __Ex 6-2.__ Write a program that reads a C program and prints in alphabetical order each group of variable names that are identical in the first 6 characters but different somewhere thereafter. Don't count words within strings and comments. Make 6 a parameter that can be set from the command line. -> Solution: [main(argc,argv)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-02-1.c), [getword(word,lim)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-02-2.c)
+- [x] __Ex 6-3.__ Write a cross-referencer that prints a list of all words in a document, and, for each word, a list of the line numbers on which it occurs. Remove noise words like "the," "and," and so on. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-03-1.c)
+- [x] __Ex 6-4.__ Write a program that prints the distinct words in its input sorted into decreasing order of frequency of occurrence. Precede each word by its count. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-04-1.c)
+- [x] __Ex 6-5.__ Write a function `undef` that will remove a name and definition from the table maintained by `lookup`  and `install`. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-05-1.c)
+- [x] __Ex 6-6.__ Implement a simple version of the `#define` processor (i.e., no arguments) suitable for use  with C programs, based on the routines of this section. You may also find `getch` and `ungetch` helpful. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-06-1.c)
 
 ## Chapter 7 - Input and Output
 - [ ] __Ex 7-1.__ Write a program that converts upper case to lower or lower case to upper, depending on the name it is invoked with, as found in `argv[0]`. -> TO DO
