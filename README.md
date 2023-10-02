@@ -94,15 +94,15 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [x] __Ex 6-6.__ Implement a simple version of the `#define` processor (i.e., no arguments) suitable for use  with C programs, based on the routines of this section. You may also find `getch` and `ungetch` helpful. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH6-06-1.c)
 
 ## Chapter 7 - Input and Output
-- [ ] __Ex 7-1.__ Write a program that converts upper case to lower or lower case to upper, depending on the name it is invoked with, as found in `argv[0]`. -> TO DO
-- [ ] __Ex 7-2.__ Write a program that will print arbitrary input in a sensible way. As a minimum, it should print non-graphic characters in octal or hexadecimal according to local custom, and break long text lines. -> TO DO
-- [ ] __Ex 7-3.__ Revise `minprintf` to handle more of the facilities of `printf`. -> TO DO
-- [ ] __Ex 7-4.__ Write a private version of `scanf` analogous to `minprintf` from the previous section. -> TO DO
-- [ ] __Ex 7-5.__ Rewrite the postfix calculator of Chapter 4 to use `scanf` and/or `sscanf` to do the input and number conversion. -> TO DO
-- [ ] __Ex 7-6.__ Write a program to compare two files, printing the first line where they differ. -> TO DO
-- [ ] __Ex 7-7.__ Modify the pattern finding program of Chapter 5 to take its input from a set of named files or, if no files are named as arguments, from the standard input. Should the file name be printed when a matching line is found? -> TO DO
-- [ ] __Ex 7-8.__ Write a program to print a set of files, starting each new one on a new page, with a title and a running page count for each file. -> TO DO
-- [ ] __Ex 7-9.__ Functions like `isupper` can be implemented to save space or to save time. Explore both possibilities. -> TO DO
+- [x] __Ex 7-1.__ Write a program that converts upper case to lower or lower case to upper, depending on the name it is invoked with, as found in `argv[0]`. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-01-1.c)
+- [x] __Ex 7-2.__ Write a program that will print arbitrary input in a sensible way. As a minimum, it should print non-graphic characters in octal or hexadecimal according to local custom, and break long text lines. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-02-1.c)
+- [x] __Ex 7-3.__ Revise `minprintf` to handle more of the facilities of `printf`. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-03-1.c)
+- [x] __Ex 7-4.__ Write a private version of `scanf` analogous to `minprintf` from the previous section. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-04-1.c)
+- [x] __Ex 7-5.__ Rewrite the postfix calculator of Chapter 4 to use `scanf` and/or `sscanf` to do the input and number conversion. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-05-1.c)
+- [x] __Ex 7-6.__ Write a program to compare two files, printing the first line where they differ. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-06-1.c)
+- [x] __Ex 7-7.__ Modify the pattern finding program of Chapter 5 to take its input from a set of named files or, if no files are named as arguments, from the standard input. Should the file name be printed when a matching line is found? -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-07-1.c)
+- [x] __Ex 7-8.__ Write a program to print a set of files, starting each new one on a new page, with a title and a running page count for each file. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-08-1.c)
+- [x] __Ex 7-9.__ Functions like `isupper` can be implemented to save space or to save time. Explore both possibilities. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-09-1.c)
 
 ## Chapter 8 - The UNIX System Interface
 - [ ] __Ex 8-1.__ Rewrite the program `cat` from Chapter 7 using `read`, `write`, `open` and `close` instead of their standard library equivalents. Perform experiments to determine the relative speeds of the two versions. -> TO DO
