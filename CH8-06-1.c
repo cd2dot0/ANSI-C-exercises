@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void *malloc_(unsigned);
 
 /* calloc_: return a pointer to n objects of size "size", */
