@@ -1,5 +1,13 @@
 # ANSI-C-exercises
-Examples of solutions to exercises from the book "The C Programming Language, Second Edition" by B. Kernighan and D. Ritchie.
+Examples of solutions to exercises from the book "The C Programming Language, Second Edition" by B. Kernighan and D. Ritchie. 
+
+# Acknowledgements
+I would like to thank [davidtwco](https://github.com/davidtwco) for the [inspiration](https://github.com/davidtwco/ansi-c-exercises/blob/9caa2f9ea721bc124d9c0b1a30add3fb47031bf3/README.md) to make a README file in this style. I would like to thank [emeryberger](https://github.com/emeryberger) for his sbrk implementation as well. Also, I would like to thank Clovis L. Tondo & Scott E. Gimpel for their book "The C Answer Book, (2nd Edition)". Studying the solutions included in this book was a learning experience.
+
+General notes:
+- I usually used the comment type `*/` if a comment belongs to the authors of the book and `//` if a comment belongs to me.
+- I often added an underline character at the end of the function name (e.g. `functionname_()`) to avoid name conflicts with functions from different libraries.
+- I did not usually include unmodified functions (regarding their equivalents in the book) in my solutions. Otherwise the code would be unnecessarily longer and harder to analyse.
 
 ## Chapter 1 - A Tutorial Introduction
 - [x] __Ex 1-1.__ Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what error messages you get. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH1-01-1.c)
@@ -105,6 +113,12 @@ Examples of solutions to exercises from the book "The C Programming Language, Se
 - [x] __Ex 7-9.__ Functions like `isupper` can be implemented to save space or to save time. Explore both possibilities. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH7-09-1.c)
 
 ## Chapter 8 - The UNIX System Interface
+Notes:
+- All solutions for the chapter were created for Windows systems. Yes, I know that this chapter was written for UNIX users, but with the proper libraries you can finish all exercises on Windows as well (I used CodeBlocks IDE for this purpose).
+- For Exercise 8-8, I gave two solutions: the first one is a function which is compatible with the code given in Section 8.6 of the book, and the second one is all new program with the Windows library.
+- The function morecore(), given in Section 8.7, requires a function sbrk(). I used [sbrk implementation](https://github.com/emeryberger/Malloc-Implementations/blob/master/Heap-Layers/heaps/special/sbrk.c) for Win32 by Emery Berger.
+
+Exercises:
 - [x] __Ex 8-1.__ Rewrite the program `cat` from Chapter 7 using `read`, `write`, `open` and `close` instead of their standard library equivalents. Perform experiments to determine the relative speeds of the two versions. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH8-01-1.c)
 - [x] __Ex 8-2.__ Rewrite `fopen` and `_fillbuf` with fields instead of explicit bit operations. Compare code size and execution speed. -> [Solution](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH8-02-1.c)
 - [x] __Ex 8-3.__ Design and write  `_flushbuf`, `fflush` and `fclose`. -> Solution: [_flushbuf(x,fp)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH8-03-1.c), [fflush(fp)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH8-03-2.c), [fclose(fp)](https://github.com/cd2dot0/ANSI-C-exercises/blob/master/CH8-03-3.c)
